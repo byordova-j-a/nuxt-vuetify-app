@@ -10,9 +10,9 @@
   </v-btn>
 </template>
 <script setup lang="ts">
-import { type TComponentEmits, type TComponentProps, defaultProps } from './models';
+import type { TComponentEmits, TComponentProps } from './models';
 
-const componentProps = withDefaults(defineProps<TComponentProps>(), defaultProps);
+const componentProps = defineProps<TComponentProps>();
 const componentEmits = defineEmits<TComponentEmits>();
 
 </script>

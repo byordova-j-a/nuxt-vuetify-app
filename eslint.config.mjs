@@ -11,7 +11,7 @@ export default withNuxt(
       rules: {
         '@stylistic/js/space-infix-ops': ['error', { 'int32Hint': false }],
         '@stylistic/js/indent': ['error', 2],
-        '@stylistic/js/no-trailing-spaces': 'error',
+        '@stylistic/js/no-multiple-empty-lines': 'error',
         quotes: ['error', 'single'],
         // Vue 3 specific rules
         'vue/multi-word-component-names': 'off',

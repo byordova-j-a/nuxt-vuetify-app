@@ -3,6 +3,9 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
+  experimental: {
+    payloadExtraction: false,
+  },
   app: {
     baseURL: process.env.NODE_ENV === 'production' ? '/nuxt-vuetify-app/' : '',
     buildAssetsDir: 'build-assets',
