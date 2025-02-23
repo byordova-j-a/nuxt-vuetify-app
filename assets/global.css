@@ -1,0 +1,41 @@
+.page {
+  height: 100%;
+  width: 100%;
+  padding: 18px 15px 34px 8px;
+}
+
+.roboto-regular-lg {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0;
+  user-select: none;
+}
+
+.roboto-regular-sm {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  user-select: none;
+}
+
+.roboto-medium-sm {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  user-select: none;
+}
+
+.font-inter-regular-md {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0;
+  user-select: none;
+}
